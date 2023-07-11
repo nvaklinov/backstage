@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: petstore
+  name: flaskapp
   # This is an extra long description with Markdown
   description: |
-    [The Petstore](http://petstore.example.com) is an example API used to show features of the OpenAPI spec.
+    [The Petstore](http://nikvak.com) is an example API used to show features of the Flask spec.
     - First item
     - Second item
   links:
@@ -16,6 +16,5 @@ spec:
   lifecycle: experimental
   owner: team-c
   providesApis:
-    - petstore
-    - streetlights
+    - picture
     - hello-world
