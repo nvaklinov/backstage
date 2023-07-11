@@ -4,7 +4,7 @@ metadata:
   name: flaskapp
   # This is an extra long description with Markdown
   description: |
-    [The Petstore](http://nikvak.com) is an example API used to show features of the Flask spec.
+    (http://nikvak.com) is an example API used to show features of the Flask spec.
     - First item
     - Second item
   links:
