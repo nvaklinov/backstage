@@ -4,9 +4,8 @@ metadata:
   name: https://github.com/nvaklinov/flask-project
   title: Sample Service # optional, human readable component name
   description: My first Backstage catalog item.
-  annotations:
-    github.com/project-slug: https://github.com/nvaklinov/flask-project
+  labels:
+    system: frobs
+    lifecycle: production
 spec:
   type: service
-  owner: user:nvaklinov
-  lifecycle: experimental
