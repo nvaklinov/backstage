@@ -1,11 +1,21 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: test
-  title: Sample Service # optional, human readable component name
-  description: My first Backstage catalog item.
-  labels:
-    system: frobs
-    lifecycle: production
+  name: petstore
+  # This is an extra long description with Markdown
+  description: |
+    [The Petstore](http://petstore.example.com) is an example API used to show features of the OpenAPI spec.
+    - First item
+    - Second item
+  links:
+    - url: https://github.com/nvaklinov/flask-project
+      title: GitHub Repo
+      icon: github
 spec:
   type: service
+  lifecycle: experimental
+  owner: team-c
+  providesApis:
+    - petstore
+    - streetlights
+    - hello-world
